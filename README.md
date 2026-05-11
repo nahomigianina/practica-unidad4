@@ -30,8 +30,6 @@ Cuando el servidor consume una API de IA:
 - Las respuestas pueden variar.
 - Se requiere manejo adicional de contexto y tokens.
 
----
-
 ## 2. Seguridad: ¿Por qué es una vulnerabilidad grave exponer una API Key en el frontend y cómo ayuda el backend a protegerla?
 
 Una API Key es una credencial privada que permite acceder a servicios externos como Gemini API.
@@ -55,8 +53,6 @@ El backend protege la API Key porque:
 Usuario → Frontend → Backend → Gemini API
 
 De esta forma, la clave nunca se expone públicamente.
-
----
 
 ## 3. Herramientas: ¿Qué es Google AI Studio y para qué sirve en el flujo de desarrollo?
 
